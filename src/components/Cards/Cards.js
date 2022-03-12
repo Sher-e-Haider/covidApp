@@ -6,7 +6,7 @@ import cx from 'classnames'
 
 const Cards = ({data:{confirmed,recovered,deaths,lastUpdate}}) => {
   //or > const {confirmed,recovered,deaths,lastUpdates} = data
-  // console.log(lastUpdate,recovered,deaths);
+   console.log(lastUpdate,'ppp',recovered,deaths);
   if(!confirmed){
     return <div>Loading...</div>
   }
